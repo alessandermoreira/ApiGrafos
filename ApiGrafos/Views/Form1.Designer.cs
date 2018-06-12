@@ -131,7 +131,7 @@
             // 
             // newAdj
             // 
-            this.newAdj.Location = new System.Drawing.Point(963, 103);
+            this.newAdj.Location = new System.Drawing.Point(962, 111);
             this.newAdj.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.newAdj.Name = "newAdj";
             this.newAdj.Size = new System.Drawing.Size(111, 31);
