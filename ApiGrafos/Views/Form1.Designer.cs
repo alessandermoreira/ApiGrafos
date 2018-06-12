@@ -54,15 +54,13 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.grafoToolStripMenuItem,
             this.verticeToolStripMenuItem,
             this.adacenciaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 3, 0, 3);
-            this.menuStrip1.Size = new System.Drawing.Size(1090, 31);
+            this.menuStrip1.Size = new System.Drawing.Size(727, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -71,14 +69,14 @@
             this.grafoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.novoGrafoToolStripMenuItem});
             this.grafoToolStripMenuItem.Name = "grafoToolStripMenuItem";
-            this.grafoToolStripMenuItem.Size = new System.Drawing.Size(62, 25);
+            this.grafoToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
             this.grafoToolStripMenuItem.Text = "Grafo";
             this.grafoToolStripMenuItem.Click += new System.EventHandler(this.grafoToolStripMenuItem_Click);
             // 
             // novoGrafoToolStripMenuItem
             // 
             this.novoGrafoToolStripMenuItem.Name = "novoGrafoToolStripMenuItem";
-            this.novoGrafoToolStripMenuItem.Size = new System.Drawing.Size(170, 30);
+            this.novoGrafoToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
             this.novoGrafoToolStripMenuItem.Text = "NovoGrafo";
             // 
             // verticeToolStripMenuItem
@@ -87,34 +85,33 @@
             this.addVerticeToolStripMenuItem,
             this.verificarAdjacenciaToolStripMenuItem});
             this.verticeToolStripMenuItem.Name = "verticeToolStripMenuItem";
-            this.verticeToolStripMenuItem.Size = new System.Drawing.Size(74, 25);
+            this.verticeToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
             this.verticeToolStripMenuItem.Text = "Vertice";
             // 
             // addVerticeToolStripMenuItem
             // 
             this.addVerticeToolStripMenuItem.Name = "addVerticeToolStripMenuItem";
-            this.addVerticeToolStripMenuItem.Size = new System.Drawing.Size(240, 30);
+            this.addVerticeToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
             this.addVerticeToolStripMenuItem.Text = "AddVertice";
             // 
             // verificarAdjacenciaToolStripMenuItem
             // 
             this.verificarAdjacenciaToolStripMenuItem.Name = "verificarAdjacenciaToolStripMenuItem";
-            this.verificarAdjacenciaToolStripMenuItem.Size = new System.Drawing.Size(240, 30);
+            this.verificarAdjacenciaToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
             this.verificarAdjacenciaToolStripMenuItem.Text = "Verificar Adjacencia";
             // 
             // adacenciaToolStripMenuItem
             // 
             this.adacenciaToolStripMenuItem.Name = "adacenciaToolStripMenuItem";
-            this.adacenciaToolStripMenuItem.Size = new System.Drawing.Size(103, 25);
+            this.adacenciaToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
             this.adacenciaToolStripMenuItem.Text = "Adjacencia";
             // 
             // newVer
             // 
             this.newVer.Enabled = false;
-            this.newVer.Location = new System.Drawing.Point(18, 103);
-            this.newVer.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.newVer.Location = new System.Drawing.Point(12, 67);
             this.newVer.Name = "newVer";
-            this.newVer.Size = new System.Drawing.Size(160, 35);
+            this.newVer.Size = new System.Drawing.Size(107, 23);
             this.newVer.TabIndex = 4;
             this.newVer.Text = "Adicionar vertice";
             this.newVer.UseVisualStyleBackColor = true;
@@ -123,18 +120,16 @@
             // nameVert
             // 
             this.nameVert.Enabled = false;
-            this.nameVert.Location = new System.Drawing.Point(186, 106);
-            this.nameVert.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.nameVert.Location = new System.Drawing.Point(124, 69);
             this.nameVert.Name = "nameVert";
-            this.nameVert.Size = new System.Drawing.Size(97, 26);
+            this.nameVert.Size = new System.Drawing.Size(66, 20);
             this.nameVert.TabIndex = 5;
             // 
             // newAdj
             // 
-            this.newAdj.Location = new System.Drawing.Point(962, 111);
-            this.newAdj.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.newAdj.Location = new System.Drawing.Point(641, 72);
             this.newAdj.Name = "newAdj";
-            this.newAdj.Size = new System.Drawing.Size(111, 31);
+            this.newAdj.Size = new System.Drawing.Size(74, 20);
             this.newAdj.TabIndex = 6;
             this.newAdj.Text = "Adjacência ";
             this.newAdj.UseVisualStyleBackColor = true;
@@ -142,10 +137,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(520, 389);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button2.Location = new System.Drawing.Point(347, 253);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(112, 35);
+            this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 7;
             this.button2.Text = "Criar";
             this.button2.UseVisualStyleBackColor = true;
@@ -153,96 +147,87 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(4, 0);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 20);
+            this.label1.Size = new System.Drawing.Size(64, 13);
             this.label1.TabIndex = 8;
             this.label1.Text = "NomeGrafo:";
             // 
             // nameGrafo
             // 
-            this.nameGrafo.Location = new System.Drawing.Point(108, 5);
-            this.nameGrafo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.nameGrafo.Location = new System.Drawing.Point(73, 3);
             this.nameGrafo.Name = "nameGrafo";
-            this.nameGrafo.Size = new System.Drawing.Size(246, 26);
+            this.nameGrafo.Size = new System.Drawing.Size(165, 20);
             this.nameGrafo.TabIndex = 9;
             // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.Controls.Add(this.label1);
             this.flowLayoutPanel1.Controls.Add(this.nameGrafo);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(20, 42);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(13, 27);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(384, 40);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(256, 26);
             this.flowLayoutPanel1.TabIndex = 10;
             // 
             // nameVer1
             // 
             this.nameVer1.Enabled = false;
-            this.nameVer1.Location = new System.Drawing.Point(294, 106);
-            this.nameVer1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.nameVer1.Location = new System.Drawing.Point(196, 70);
             this.nameVer1.Name = "nameVer1";
-            this.nameVer1.Size = new System.Drawing.Size(97, 26);
+            this.nameVer1.Size = new System.Drawing.Size(66, 20);
             this.nameVer1.TabIndex = 11;
             this.nameVer1.Visible = false;
             // 
             // nameVer2
             // 
             this.nameVer2.Enabled = false;
-            this.nameVer2.Location = new System.Drawing.Point(402, 106);
-            this.nameVer2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.nameVer2.Location = new System.Drawing.Point(268, 70);
             this.nameVer2.Name = "nameVer2";
-            this.nameVer2.Size = new System.Drawing.Size(97, 26);
+            this.nameVer2.Size = new System.Drawing.Size(66, 20);
             this.nameVer2.TabIndex = 12;
             this.nameVer2.Visible = false;
             // 
             // nameVer3
             // 
             this.nameVer3.Enabled = false;
-            this.nameVer3.Location = new System.Drawing.Point(510, 106);
-            this.nameVer3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.nameVer3.Location = new System.Drawing.Point(340, 71);
             this.nameVer3.Name = "nameVer3";
-            this.nameVer3.Size = new System.Drawing.Size(97, 26);
+            this.nameVer3.Size = new System.Drawing.Size(66, 20);
             this.nameVer3.TabIndex = 13;
             this.nameVer3.Visible = false;
             // 
             // nameVert4
             // 
             this.nameVert4.Enabled = false;
-            this.nameVert4.Location = new System.Drawing.Point(618, 106);
-            this.nameVert4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.nameVert4.Location = new System.Drawing.Point(412, 72);
             this.nameVert4.Name = "nameVert4";
-            this.nameVert4.Size = new System.Drawing.Size(97, 26);
+            this.nameVert4.Size = new System.Drawing.Size(66, 20);
             this.nameVert4.TabIndex = 14;
             this.nameVert4.Visible = false;
             // 
             // nameVer5
             // 
             this.nameVer5.Enabled = false;
-            this.nameVer5.Location = new System.Drawing.Point(726, 106);
-            this.nameVer5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.nameVer5.Location = new System.Drawing.Point(484, 72);
             this.nameVer5.Name = "nameVer5";
-            this.nameVer5.Size = new System.Drawing.Size(97, 26);
+            this.nameVer5.Size = new System.Drawing.Size(66, 20);
             this.nameVer5.TabIndex = 15;
             this.nameVer5.Visible = false;
             // 
             // nameVer6
             // 
             this.nameVer6.Enabled = false;
-            this.nameVer6.Location = new System.Drawing.Point(834, 106);
-            this.nameVer6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.nameVer6.Location = new System.Drawing.Point(556, 72);
             this.nameVer6.Name = "nameVer6";
-            this.nameVer6.Size = new System.Drawing.Size(97, 26);
+            this.nameVer6.Size = new System.Drawing.Size(66, 20);
             this.nameVer6.TabIndex = 16;
             this.nameVer6.Visible = false;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1090, 443);
+            this.ClientSize = new System.Drawing.Size(727, 288);
             this.Controls.Add(this.nameVer6);
             this.Controls.Add(this.nameVer5);
             this.Controls.Add(this.nameVert4);
@@ -256,7 +241,6 @@
             this.Controls.Add(this.newVer);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Grafo1.0";
             this.menuStrip1.ResumeLayout(false);
